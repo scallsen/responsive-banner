@@ -1,0 +1,51 @@
+html {
+  font-family: 'Georgia', sans-serif;
+  color: white;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  background-color: #495562;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #efefef;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn-container {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    max-height: 500px;
+  }
+
+  .banner-content {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    display: inline;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+
+  }
+
+}
