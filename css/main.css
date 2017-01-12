@@ -1,5 +1,5 @@
 html {
-  font-family: 'Georgia', sans-serif;
+  font-family: Georgia, serif;
   color: white;
 }
 
@@ -22,6 +22,10 @@ html {
   border-color: #efefef;
 }
 
+.btn-ghost:hover {
+  color: #97a49b;
+}
+
 @media only screen and (min-width: 38em) {
 
   .btn-container {
@@ -42,10 +46,11 @@ html {
     left: 50%;
     bottom: 0;
     display: inline;
-    width: 100%;
     background-color: transparent;
     background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
-
   }
 
+  .btn-ghost {
+    border-color: #fff;
+  }
 }
